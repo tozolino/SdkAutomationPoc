@@ -1,0 +1,14 @@
+{
+  "capabilities": {
+    "platformName": "iOS",
+    "automationName": "XCUITest",
+  },
+
+  "environments": {
+    "iPhone_8plus_real_device": {
+      "udid": "a764a804d0cbe91591e80c18282f82d28694fdbf",
+      "deviceName": "iPhone 8 plus",
+      "platformVersion": "11.4.1"
+    }
+  }
+}

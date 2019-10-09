@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test - Android">
+
+    <parameter name="config" value="androidConf.json"/>
+    <parameter name="os" value="android"/>
+
+    <test name="Demo Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="demo.DemoTest"/>
+        </classes>
+    </test>
+</suite>

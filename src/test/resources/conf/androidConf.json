@@ -1,0 +1,15 @@
+{
+  "capabilities": {
+    "platformName": "Android",
+    "automationName": "UIAutomator2",
+    "noReset": true
+  },
+
+  "environments": {
+    "galaxy_s8_real_device": {
+      "udid": "ce0718277de5ad0404",
+      "deviceName": "Samsung Galaxy S8",
+      "platformVersion": "8.0"
+    }
+  }
+}
