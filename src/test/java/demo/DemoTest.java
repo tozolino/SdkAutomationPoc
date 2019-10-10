@@ -5,8 +5,8 @@ import org.testng.ITestContext;
 import org.testng.annotations.*;
 import pom.CommonBasePage;
 
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class DemoTest extends DesiredCaps {
 
@@ -22,13 +22,11 @@ public class DemoTest extends DesiredCaps {
 
     @Test(description = "Verify Demo Test is executed", priority = 1, groups = {"smoke", "regression"})
     public void Verify_DemoTest() {
-
-            assertThat("Demo Test not executed properly!", true, is(true));
-
+        assertThat("Demo Test not executed properly!", true, is(true));
     }
 
     @AfterClass(alwaysRun = true)
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 }
