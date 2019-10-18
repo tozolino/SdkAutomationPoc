@@ -10,6 +10,11 @@
       "udid": "ce0718277de5ad0404",
       "deviceName": "Samsung Galaxy S8",
       "platformVersion": "8.0"
+    },
+    "galaxy_s7_real_device": {
+      "udid": "ce12171c6c97181f0b",
+      "deviceName": "Samsung Galaxy S7",
+      "platformVersion": "7.0"
     }
   }
 }

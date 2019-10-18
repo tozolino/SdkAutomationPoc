@@ -22,6 +22,8 @@ public class DemoTest extends DesiredCaps {
 
     @Test(description = "Verify Demo Test is executed", priority = 1, groups = {"smoke", "regression"})
     public void Verify_DemoTest() {
+
+
         assertThat("Demo Test not executed properly!", true, is(true));
     }
 

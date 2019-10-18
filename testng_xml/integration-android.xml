@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Integration Test - Android">
+
+    <parameter name="config" value="androidConf.json"/>
+    <parameter name="os" value="android"/>
+
+    <test name="Demo Test">
+        <groups>
+            <run>
+                <include name="integration"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="demo.DemoIT"/>
+        </classes>
+    </test>
+</suite>
